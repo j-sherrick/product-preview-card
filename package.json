@@ -1,0 +1,28 @@
+{
+  "name": "product-preview-card",
+  "version": "1.0.0",
+  "description": "This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+  "scripts": {
+    "start": "parcel /src/index.html",
+    "build": "parcel build /src/index.html --no-optimize --public-url /",
+    "push-gh": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose",
+    "cleanup": "rm -rf dist/*"
+  },
+  "keywords": [
+    "parcel",
+    "sass",
+    "frontend-mentor",
+    "css",
+    "bem",
+    "frontend",
+    "web-development",
+    "product-card",
+    "card",
+    "tutorials"
+  ],
+  "author": "Jason Sherrick",
+  "license": "MIT",
+  "devDependencies": {
+    "push-dir": "^0.4.1"
+  }
+}
