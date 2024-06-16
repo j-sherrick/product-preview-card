@@ -1,0 +1,28 @@
+.product-card {
+  margin: 1.75rem 1rem;
+
+  &__picture {
+    &--default {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__overline {
+    color: var(--clr-dark-gray-blue);
+    text-transform: uppercase;
+    font-size: 0.75rem;
+  }
+
+  &__name {
+    color: var(--clr-very-dark-blue);
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  &__description {
+  }
+
+  &__price {
+  }
+}

@@ -30,11 +30,9 @@ Users should be able to:
 
 My personal goals:
 
-- Continue to complete challenges in 'vanilla' fashion, using at most Sass, TypeScript, and a bundler.
-- Continue to gain experience with build tools, Parcel in this case.
-- Grow and develop FE architecture skills i.e. structuring Sass projects
-- Try organizing Sass by block instead of vague folder names like `abstracts`
-- Complete this challenge in one evening
+- Complete the challenge 'vanilla'.
+- Improve my Sass and overall CSS skills.
+- Continue to develop my own approach to BEM styling
 
 ### Screenshot
 
@@ -56,6 +54,8 @@ My personal goals:
 - Mobile-first workflow
 
 ### What I learned
+
+I wanted to keep the project Sassy and follow a BEM architecture as close as possible. One thing I learned, and that really relieved a lot of stress, was that the official BEM guidelines say [you can create your own custom naming solution](https://en.bem.info/methodology/naming-convention/). Coupled with the fact that the guidelines for directory structure allow for a flex approach, combining both a nested and flat approach makes the most sense to me.
 
 ```html
 <h1>Some HTML code I'm proud of</h1>

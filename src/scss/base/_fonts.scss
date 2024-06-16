@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Fraunces';
+  src: url('../fonts/fraunces/Fraunces-VariableFont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/montserrat/Montserrat-VariableFont.ttf') format('truetype');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Fraunces', serif;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+}

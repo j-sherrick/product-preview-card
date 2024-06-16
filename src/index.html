@@ -11,23 +11,33 @@
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
+    <!------------ BEGIN PRODUCT CARD -------------->
     <div class="product-card">
-      <img class="product-card__image"></img>
-      <h1 class="product-card__name">Perfume Gabrielle Essence Eau De Parfum</h1>
-      <p class="product-card__description">
-        A floral, solar and voluptuous interpretation composed by Olivier
-        Polge, Perfumer-Creator for the House of CHANEL.
-      </p>
-      <span class="product-card__price">$149.99</span> <s>$169.99</s>
-      <button>
-        <img src="./images/icon-cart.svg" alt="icon of a shopping cart" sizes="" srcset="">
-        Add to Cart
-      </button>
+      <picture class="product-card__picture">
+        <source srcset="./images/image-product-mobile.jpg" media="(max-width: 600px)" />
+        <source srcset="./images/image-product-desktop.jpg" media="(min-width: 601px)" />
+        <img class="product-picture__image" src="./images/image-product-mobile.jpg" alt="Product image" />
+      </picture>
+      <!-- PRODUCT CARD INFO -->
+      <section class="product-card__info">
+        <h3 class="product-card__overline">perfume</h3>
+        <h2 class="product-card__name">Perfume Gabrielle Essence Eau De Parfum</h2>
+        <p class="product-card__description">
+          A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the
+          House of CHANEL.
+        </p>
+        <span class="product-card__price">$149.99</span> <s>$169.99</s>
+        <button class="product-card__button">
+          <img src="./images/icon-cart.svg" alt="icon of a shopping cart" />
+          Add to Cart
+        </button>
+      </section>
+      <!-- END PRODUCT CARD INFO -->
     </div>
-
-    <div class="attribution">
+    <!---------- END PRODUCT CARD  ------------>
+    <footer class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Your Name Here</a>.
-    </div>
+    </footer>
   </body>
 </html>
