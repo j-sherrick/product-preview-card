@@ -7,7 +7,7 @@
     "start": "npx parcel src/index.html",
     "build": "npx parcel build src/index.html --no-optimize --public-url ./",
     "push-gh": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose",
-    "cleanup": "rm -rf dist/*"
+    "cleanup": "rm -rf dist/* .parcel-cache"
   },
   "keywords": [
     "parcel",

@@ -1,3 +1,6 @@
 body {
   background-color: var(--clr-cream);
+  display: grid;
+  place-content: center;
+  height: 95vh;
 }

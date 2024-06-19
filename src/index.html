@@ -16,7 +16,11 @@
       <picture class="product-card__picture">
         <source srcset="./images/image-product-mobile.jpg" media="(max-width: 600px)" />
         <source srcset="./images/image-product-desktop.jpg" media="(min-width: 601px)" />
-        <img class="product-picture__image" src="./images/image-product-mobile.jpg" alt="Product image" />
+        <img
+          class="product-card__picture--default"
+          src="./images/image-product-mobile.jpg"
+          alt="Product image"
+        />
       </picture>
       <!-- PRODUCT CARD INFO -->
       <section class="product-card__info">
@@ -26,7 +30,10 @@
           A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the
           House of CHANEL.
         </p>
-        <span class="product-card__price">$149.99</span> <s>$169.99</s>
+        <div class="product-card__price">
+          <span class="product-card__price--current">$149.99</span>
+          <span class="product-card__price--strike">$169.99</span>
+        </div>
         <button class="product-card__button">
           <img src="./images/icon-cart.svg" alt="icon of a shopping cart" />
           Add to Cart
@@ -35,9 +42,11 @@
       <!-- END PRODUCT CARD INFO -->
     </div>
     <!---------- END PRODUCT CARD  ------------>
+
+    <!-- Frontend Mentor Footer -->
     <footer class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Jason Sherrick</a>.
     </footer>
   </body>
 </html>
