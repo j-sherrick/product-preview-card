@@ -23,6 +23,7 @@
     color: var(--clr-dark-gray-blue);
     text-transform: uppercase;
     font-size: 0.75rem;
+    line-height: 0.75rem;
     font-family: 'Montserrat';
     font-weight: 500;
     letter-spacing: 5px;
@@ -40,6 +41,7 @@
     color: var(--clr-dark-gray-blue);
     font-weight: 500;
     margin-bottom: 1.5rem;
+    line-height: 23px; // To make it exact
   }
 
   &__price {
