@@ -52,10 +52,12 @@ My personal goals:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- BEM architecture
+- Sass
 
 ### What I learned
 
-I wanted to keep the project Sassy and follow a BEM architecture as close as possible. One thing I learned, and that really relieved a lot of stress, was that the official BEM guidelines say [you can create your own custom naming solution](https://en.bem.info/methodology/naming-convention/). Coupled with the fact that the guidelines for directory structure allow for a flex approach, combining both a nested and flat approach makes the most sense to me.
+During this project, I learned how to effectively use Sass to organize and manage CSS in a modular way. I also improved my understanding of responsive design, ensuring the component looks great on both desktop and mobile devices. My goal was to maintain a Sassy style and adhere closely to the BEM architecture. One key insight that alleviated much of my stress was discovering that the official BEM guidelines allow for custom naming conventions. Additionally, the guidelines for directory structure offer flexibility, allowing a combination of both nested and flat approaches. This combination made the most sense to me and helped streamline the project's organization.
 
 ```html
 <h1>Some HTML code I'm proud of</h1>

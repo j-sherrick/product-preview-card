@@ -1,0 +1,41 @@
+.
+├── package.json
+├── product-card-struct.txt
+├── product-preview-card.code-workspace
+├── README.md
+└── src
+    ├── fonts
+    │   ├── fraunces
+    │   │   ├── Fraunces-VariableFont.ttf
+    │   │   └── OFL.txt
+    │   └── montserrat
+    │       ├── Montserrat-Italic-VariableFont.ttf
+    │       ├── Montserrat-VariableFont.ttf
+    │       └── OFL.txt
+    ├── images
+    │   ├── favicon-32x32.png
+    │   ├── icon-cart.svg
+    │   ├── image-product-desktop.jpg
+    │   └── image-product-mobile.jpg
+    ├── index.html
+    └── scss
+        ├── base
+        │   ├── _base.scss
+        │   ├── _colors.scss
+        │   ├── _fonts.scss
+        │   ├── _index.scss
+        │   └── _reset.scss
+        ├── components
+        │   ├── desktop
+        │   │   ├── _index.scss
+        │   │   └── _product-card.scss
+        │   ├── _index.scss
+        │   └── mobile
+        │       ├── _index.scss
+        │       └── _product-card.scss
+        ├── style.scss
+        └── utils
+            ├── _index.scss
+            └── _mixins.scss
+
+12 directories, 27 files
