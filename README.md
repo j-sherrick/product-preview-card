@@ -10,6 +10,8 @@ bundled with Parcel for deployment to Github Pages.
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
+      - [Desktop](#desktop)
+      - [Mobile](#mobile)
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
@@ -35,7 +37,12 @@ My personal goals:
 
 ### Screenshot
 
+#### Desktop
+
 ![Desktop screenshot of product card](/src/images/readme/screenshot-desktop.png)
+
+#### Mobile
+
 ![Mobile screenshot of product card](/src/images/readme/screenshot-mobile.jpg)
 
 ### Links
