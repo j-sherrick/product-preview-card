@@ -1,11 +1,11 @@
-# Frontend Mentor - Product preview card component solution
+# Frontend Mentor - Product Preview Card
 
 This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). It is a vanilla solution that uses no frameworks, utilizing only Sass and modern BEM architecture guidelines. It is
 bundled with Parcel for deployment to Github Pages.
 
 ## Table of contents
 
-- [Frontend Mentor - Product preview card component solution](#frontend-mentor---product-preview-card-component-solution)
+- [Frontend Mentor - Product Preview Card](#frontend-mentor---product-preview-card)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
@@ -17,7 +17,6 @@ bundled with Parcel for deployment to Github Pages.
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
   - [Author](#author)
-  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -36,12 +35,13 @@ My personal goals:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop screenshot of product card](/src/images/readme/screenshot-desktop.png)
+![Mobile screenshot of product card](/src/images/readme/screenshot-mobile.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/j-sherrick/product-preview-card/tree/master)
+- Live Site URL: [Add live site URL here](https://j-sherrick.github.io/product-preview-card/)
 
 ## My process
 
@@ -57,7 +57,7 @@ My personal goals:
 
 ### What I learned
 
-During this project, I learned how to effectively use Sass to organize and manage CSS in a modular way. I also improved my understanding of responsive design, ensuring the component looks great on both desktop and mobile devices. My goal was to maintain a Sassy style and adhere closely to the BEM architecture. One key insight that alleviated much of my stress was discovering that the official BEM guidelines allow for custom naming conventions. Additionally, the guidelines for directory structure offer flexibility, allowing a combination of both nested and flat approaches. This combination made the most sense to me and helped streamline the project's organization.
+During this project, I learned how to effectively use Sass to organize and manage CSS in a modular way. I also improved my understanding of responsive design, ensuring the component looks great on both desktop and mobile devices. My goal was to adhere closely to a BEM architecture, using a combination of both nested and flat approaches to structuring my directories and source files. This combination made the most sense to me and helped streamline the project's organization.
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
@@ -79,27 +79,18 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- Continue to explore 'vanilla' architectures for structuring learning projects.
+- Improve my writing and documentation skills.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Sass Docs](https://sass-lang.com/documentation/)
+- [Structure of BEM Projects](https://en.bem.info/methodology/filestructure/) - The key takeaway for me is, use the approach that works best for _your_ project.
+- [Deploying to GitHub Pages](https://gist.github.com/OleksiyRudenko/7e94aa2d18927e0c5e65b2b5a1c0e375#pre-requisites) - Easily deploy to Github Pages with Parcel
+- [CSS Grid Layouts](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout)
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Currently I run a small on-site tech support biz and continue to develop my own website - [Integra Tech Support](https://www.integratechsupport.com). I aspire to be a web developer and in my free time [I solve challenges on Frontend Mentor](https://www.frontendmentor.io/profile/j-sherrick).
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
