@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.18448cd0.png">
+    <link rel="stylesheet" href="index.e33c4630.css">
+
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body>
+    <!------------ BEGIN PRODUCT CARD -------------->
+    <div class="product-card">
+      <picture class="product-card__picture">
+        <source srcset="image-product-mobile.6dd5cee3.jpg" media="(max-width: 600px)">
+        <source srcset="image-product-desktop.1af46163.jpg" media="(min-width: 601px)">
+        <img class="product-card__picture--default" src="image-product-mobile.6dd5cee3.jpg" alt="Product image">
+      </picture>
+      <!-- PRODUCT CARD INFO -->
+      <section class="product-card__info">
+        <h2 class="product-card__overline">perfume</h2>
+        <h1 class="product-card__name">Gabrielle Essence Eau De Parfum
+        <p class="product-card__description">
+          A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the
+          House of CHANEL.
+        </p>
+        <div class="product-card__price">
+          <span class="product-card__price--current">$149.99</span>
+          <span class="product-card__price--strike">$169.99</span>
+        </div>
+        <button class="product-card__button">
+          <img src="icon-cart.09de35b1.svg" alt="icon of a shopping cart">
+          Add to Cart
+        </button>
+      </h1></section>
+      <!-- END PRODUCT CARD INFO -->
+    </div>
+    <!---------- END PRODUCT CARD  ------------>
+
+    <!-- Frontend Mentor Footer -->
+     <!--
+      We opt to use a nav element for the footer here for a11y reasons since this is the only navigation available on the page     -->
+    <nav class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/j-sherrick">Jason Sherrick</a>.
+    </nav>
+    <!-- END FOOTER -->
+  </body>
+</html>
