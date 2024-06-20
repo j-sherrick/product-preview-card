@@ -1,9 +1,10 @@
+@use '../../utils' as *;
+
 .product-card {
   margin: 1.75rem 1rem;
   background-color: white;
   border-radius: 0.5rem;
   display: grid;
-  place-items: initial;
 
   &__picture {
     border-radius: 0.5rem 0.5rem 0 0;

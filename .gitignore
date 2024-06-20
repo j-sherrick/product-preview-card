@@ -1,18 +1,30 @@
-# Avoid accidental upload of the Sketch and Figma design files
-#####################################################
+# Design files
 *.sketch
 *.fig
-
-# Avoid accidental XD upload if you convert the design file
-###############################################
 *.xd
 
-.DS_Store
-.prettierignore
-.parcel-cache
-.cache
+# Node modules
 node_modules
+
+# Build directories
 dist
+build
+
+# OS-generated files
+.DS_Store
+
+# Cache files
+.*-cache
+.cache
+
+# Prettier configuration
+.prettierignore
+
+# Templates
 *-template*
+
+# Dependency lock files
 package-lock.json
+
+# Compressed files
 *.zip

@@ -1,6 +1,12 @@
+@use '../utils' as *;
+
 body {
   background-color: var(--clr-cream);
   display: grid;
-  place-content: center;
-  height: 95vh;
+  place-content: start;
+  min-height: 100vh;
+
+  @include breakpoints('sm') {
+    place-content: center;
+  }
 }
