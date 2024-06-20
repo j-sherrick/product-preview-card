@@ -22,5 +22,18 @@
     &__info {
       padding: 2rem;
     }
+
+    &__overline {
+      margin-bottom: 1.25rem;
+    }
+
+    &__name {
+      margin-bottom: 1.5rem;
+    }
+
+    &__description,
+    &__price {
+      margin-bottom: 1.875rem;
+    }
   }
 }
