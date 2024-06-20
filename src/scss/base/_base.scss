@@ -5,6 +5,7 @@ body {
   display: grid;
   place-content: start;
   min-height: 100vh;
+  position: relative;
 
   @include breakpoints('sm') {
     place-content: center;
